@@ -486,8 +486,7 @@ def main():
     - India TB Report 2023, Ministry of Health & Family Welfare
     - National TB Elimination Program Implementation Guidelines
 
-    **🔬 Research Team:** TB Forecasting Research Initiative
-    **📧 Contact:** tb-forecasting@research-institute.org
+    **🔬 Research Contact:** Dr Siddalingaiah H S, hssling@yahoo.com
 
     *This dashboard is part of ongoing research on tuberculosis elimination strategies. Data and forecasts are updated regularly to support evidence-based policy decisions.*
     """)
