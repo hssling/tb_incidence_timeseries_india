@@ -244,9 +244,9 @@ python -m pytest tests/
 
 ### 🧬 **Research Team**
 **TB Forecasting Research Initiative**
-- 📧 Email: tb-forecasting@research-institute.org
-- 🔗 LinkedIn: [TB Forecasting Initiative](https://linkedin.com/company/tb-forecasting)
-- 📊 ORCID: [Research Team](https://orcid.org)
+- 📧 Email: `hssling@yahoo.com`
+- 🔗 LinkedIn: `hssling@yahoo.com`
+- 📊 ORCID: `Research Team in git with hssling@yahoo.com, Dr Siddalingaiah H S, https://orcid.org/0000-0002-4771-8285`
 
 ### 🆘 **Issues & Feature Requests**
 - **Bug Reports**: [GitHub Issues](https://github.com/hssling/tb_incidence_timeseries_india/issues)

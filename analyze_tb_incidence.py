@@ -27,7 +27,7 @@ from plotly.subplots import make_subplots
 # ================================
 print("📊 Loading TB Incidence Data for India (2000-2024)")
 
-df = pd.read_csv("tb_incidence_timeseries_india/data/tb_incidence_india_2000_2024.csv")
+df = pd.read_csv("data/tb_incidence_india_2000_2024.csv")
 df['ds'] = pd.to_datetime(df['ds']).dt.date  # Convert to date only
 df['ds'] = pd.to_datetime(df['ds'])  # Back to datetime for analysis
 df = df.sort_values('ds').reset_index(drop=True)
