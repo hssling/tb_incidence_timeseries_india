@@ -39,8 +39,8 @@ venv.bak/
 # Jupyter Notebook
 .ipynb_checkpoints
 
-# Streamlit
-.streamlit/
+# Streamlit (allow config)
+# .streamlit/  # Commented out to allow config.toml for deployment
 
 # Data
 data/backups/
