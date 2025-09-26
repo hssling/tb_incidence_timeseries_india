@@ -46,12 +46,13 @@ st.markdown("""
 def load_historical_data():
     """Load historical TB incidence data"""
     try:
-        data_path = 'tb_incidence_timeseries_india/data/tb_incidence_india_2000_2024.csv'
-        df = pd.read_csv(data_path)
+        # Streamlit Cloud runs from repository root
+        df = pd.read_csv('data/tb_incidence_india_2000_2024.csv')
         df['ds'] = pd.to_datetime(df['ds'])
         return df.sort_values('ds')
-    except:
-        # Fallback to sample data
+    except Exception as e:
+        st.error(f"Error loading data: {e}")
+        # Fallback to embedded sample data for deployment testing
         dates = pd.date_range('2000-01-01', '2023-01-01', freq='YS')
         incidence = [322, 315, 308, 301, 294, 287, 280, 276, 273, 270, 267, 264,
                     258, 256, 252, 248, 244, 240, 238, 235, 229, 225, 220, 215]
